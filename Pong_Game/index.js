@@ -76,10 +76,10 @@ function createBall(){
         ballXDirection = -1; 
     }
     if(Math.round(Math.random()) == 1){
-        ballYDirection = Math.random() * 1; //more random directions
+        ballYDirection = 1;
     }
     else{
-        ballYDirection = Math.random() * -1; //more random directions
+        ballYDirection = -1;
     }
     ballX = gameWidth / 2;
     ballY = gameHeight / 2;
